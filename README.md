@@ -1,0 +1,1 @@
+This repository demonstrates a scenario where TypeScript's type system fails to catch a type error.  The `add` function is explicitly typed to accept two numbers and return a number. However, when a string is passed as an argument, the function still compiles and produces NaN at runtime.  This is unexpected behavior and may lead to subtle errors.
